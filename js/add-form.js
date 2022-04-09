@@ -42,6 +42,7 @@ export default function add() {
 			if (cont > 0) {
 				$errorContainer.classList.add("is-active");
 			} else {
+				$errorContainer.classList.remove("is-active");
 				addPerson(); //* Agrega nueva persona.
 			}
 		}
