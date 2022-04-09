@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <title>Organizador de Listas</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <h1 class="tittle">FOREIGN ORGANIZATOR</h1>
+    <div class="table-container">
+      <div class="errors-container">
+        <ul class="error none">
+
+        </ul>
+      </div>
+      <form class="add-and-delete-section" id="add-form">
+
+        <input type="text" class="inputs-name__firtsName" name="firstName" pattern="^[a-zA-ZÁÉÍÓÚáéíóúüÜ\s]+$"
+          title="Please write a valid name. (Ex. 'Dario')" placeholder=" First Name..." required>
+
+        <input type="text" class="inputs-name__lastName" name="lastName" pattern="^[a-zA-ZÁÉÍÓÚáéíóúüÜ\s]+$"
+          title="Please write a valid last name. (Ex. 'Chic')" placeholder="Last Name..." required>
+
+        <input type="number" class="inputs-name__age" name="age" pattern="^[0-9]{1,2}$"
+          title="Please write a valid age. (Ex. '20')" placeholder="Age" required>
+
+        <input type="text" class="inputs-name__country" name="country" pattern="^[a-zA-ZÁÉÍÓÚáéíóúüÜ]+$"
+          title="Invalid country. Ex. valid Country: 'Venezuela'" placeholder="Country..." required>
+
+        <input type="submit" class="inputs-name__add-button" name="add" value="ADD"></input>
+
+        <button class="inputs-name__del-button" name="del">DEL</button>
+      </form>
+      <table>
+        <thead class="table-head" id="table-head">
+          <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody class="table-body" id="table-body">
+          <!-- <tr id="User1" class="User">
+            <td id="firstName1" class="firstName">Qwe<i class="far fa-edit"></i><i class="fas fa-user-times"></i></td>
+            <td id="lastName1" class="lastName">Qwe<i class="far fa-edit"></i></td>
+            <td id="age1" class="age">34<i class="far fa-edit"></i></td>
+            <td id="country1" class="country">
+              Qwe
+              <i class="far fa-edit"></i>
+              <form class="edit">
+                <input type="text">
+                <button class="sucess-edit"></button>
+                <button class="cancel-edit"></button>
+              </form>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
