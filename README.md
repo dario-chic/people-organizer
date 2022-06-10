@@ -1,1 +1,1 @@
-https://dario-chic.github.io/people-organizator/
+https://dario-chic.github.io/people-organizer/
