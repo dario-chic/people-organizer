@@ -1,1 +1,1 @@
-https://dario-chic.github.io/foreign-organizator-2.0/
+https://dario-chic.github.io/people-organizator/
