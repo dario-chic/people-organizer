@@ -1,7 +1,7 @@
 
 # People Organizer
 
-![Badge](https://img.shields.io/badge/Estado-Finalizado-brightgreen)  
+![Badge](https://img.shields.io/badge/Status-Finished-brightgreen)  
 ## Description
 
 **People Organizer**  is a simple yet functional web application that allows users to manage a list of people. It was my very first project using  **JavaScript**,  **HTML**, and  **CSS**, and it represents the beginning of my journey as a web developer.
